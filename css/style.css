@@ -32,7 +32,7 @@ a {
     text-decoration: none !important; }
 
 p {
-  margin-bottom: 1.5em; }
+  margin-bottom: 1em; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
@@ -287,7 +287,7 @@ figure {
         min-height: 700px;
         padding: 2.5em;
         position: relative; }
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 900px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
@@ -297,10 +297,10 @@ figure {
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
-          font-size: 60px;
+          font-size: 30px;
           line-height: 1.3;
-          font-weight: 700; }
-          @media screen and (max-width: 768px) {
+          font-weight: 600; }
+          @media screen and (max-width: 800px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
               font-size: 28px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
@@ -380,8 +380,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 3em;
+  padding-bottom: 6em;
   clear: both;
   width: 100%;
   display: block; }
@@ -405,7 +405,7 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -418,7 +418,7 @@ body.offcanvas {
       margin-bottom: 3em; } }
 
 .heading-meta {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   display: block;
   font-size: 10px;
   text-transform: uppercase;
@@ -435,7 +435,7 @@ body.offcanvas {
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-weight: 500; }
+  font-weight: 600; }
 
 .hire {
   padding: 2em;
@@ -658,50 +658,6 @@ body.offcanvas {
   font-size: 16px;
 }
 
-/* Collapse Panel Styles */
-.collapse-group {
-  position: relative;
-}
-
-.collapse-panel {
-  margin-bottom: 10px;
-  border: none;
-  box-shadow: none;
-}
-
-.collapse-heading {
-  padding: 0;
-  border: none;
-  background: none;
-}
-
-.collapse-title a {
-  display: block;
-  padding: 10px 15px;
-  color: #fff;
-  background: #737373;
-  font-size: 1.2em;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.collapse-title a.collapsed {
-  background: #999;
-}
-
-.collapse-panel-body {
-  background: #f7f7f7;
-  padding: 15px;
-  border-top: 2px solid #737373;
-}
-
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
-  -webkit-opacity: .4;
-  -moz-opacity: .4;
-  opacity: .4;
-  -ms-filter: alpha(opacity=40);
-  filter: alpha(opacity=40);
-  font-size: 16px; }
 
 
 .services {
