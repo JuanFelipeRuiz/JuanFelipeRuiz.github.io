@@ -130,7 +130,7 @@ figure figcaption {
   height: 150px;
   margin: 0 auto;
   margin-bottom: 30px;
-  -webkit-border-radius: 50%;
+  -webkit-border-radius: 100%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
@@ -2069,3 +2069,9 @@ body.offcanvas .colorlib-nav-toggle {
   margin-bottom: 0px;
   padding-bottom: 0%;
 }
+
+.col-md-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
