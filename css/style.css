@@ -2060,5 +2060,12 @@ body.offcanvas .colorlib-nav-toggle {
 /* Allgemeine Einrückung */
 .indent {
   margin-left: 0%;
+  margin-bottom: 25px;
+  line-height: 20px;
+}
 
+.indent2 {
+  margin-left: 2%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
