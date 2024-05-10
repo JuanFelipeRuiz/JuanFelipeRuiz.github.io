@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Subpage 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+  <meta property="og:title" content=""/>
+  <meta property="og:image" content=""/>
+  <meta property="og:url" content=""/>
+  <meta property="og:site_name" content=""/>
+  <meta property="og:description" content=""/>
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:image" content="" />
+  <meta name="twitter:url" content="" />
+  <meta name="twitter:card" content="" />
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="shortcut icon" href="../favicon.ico">
+
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+  
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="../css/animate.css">
+  <!-- Icomoon Icon Fonts-->
+  <link rel="stylesheet" href="../css/icomoon.css">
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <!-- Flexslider  -->
+  <link rel="stylesheet" href="../css/flexslider.css">
+  <!-- Flaticons  -->
+  <link rel="stylesheet" href="../fonts/flaticon/font/flaticon.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="../css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+  <!-- Theme style  -->
+  <link rel="stylesheet" href="../css/style.css">
+
+  <!-- Modernizr JS -->
+  <script src="../js/modernizr-2.6.2.min.js"></script>
+  <!-- FOR IE9 below -->
+  <!--[if lt IE 9]>
+  <script src="../js/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+  <div id="colorlib-page">
+    <div class="container-wrap">
+      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+      
+      <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+      <div class="text-center">
+       
+        <h1 id="colorlib-logo"><a href="index.html">Blog</a></h1>
+        <span class="position">Autor Juan Felipe Ruiz</span>
+      </div>
+
+      
+      <nav id="colorlib-main-menu" role="navigation" class="navbar">
+        <div id="navbar" class="collapse">
+        <ul>
+          <li class="active"><a href="#" data-nav-section="Neuste Blogs">Neuste</a></li>
+          <li><a href="#" data-nav-section="Projekte">Projekte</a></li>
+          <li><a href="#" data-nav-section="Beiträge">Beiträge</a></li>
+        </ul>
+        </div>
+      </nav>
+      
+        <div class="text-center">
+          <p><a href="../index.html" class="name-box">→ Zum Blog <i class="icon-reload"></i></a></p>
+      </div>
+      </nav>
+      
+      </aside>
+
+      <div id="colorlib-main">
+        <section class="colorlib-blog" data-section="blog">
+          <div class="colorlib-narrow-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                        <div class="col-md-12">
+                            <div class="about-desc">
+                                <span class="heading-meta">Projektübersicht</span>
+                                <h2 class="colorlib-heading">Optimierung von Solaranalgen</h2>
+    
+                                <p>Solaranlagen von Privatpersonen können insbesondere während der Mittagszeit, wenn die Sonne am höchsten steht, mehr Energie produzieren als gebraucht wird. Dieser Überschuss, der häufig als „Overshoot“ bezeichnet wird, kann ins Netz eingespeist werden. Im Gegenzug erhalten Hausbesitzer vom Energieversorger eine gesetzlich geregelte Einspeisevergütung.</p>
+    
+                                <p>Angesichts der schwankenden Strompreise stellt sich die Frage, welches Ertragspotenzial sich für Solaranlagenbesitzer ergibt, wenn sie den Overshoot optimal verkaufen könnten. Die Herausforderung besteht darin, das mögliche Ertragspotenzial für das Jahr 2021 zu ermitteln, wenn Solaranlagenbesitzer den Overshoot unabhängig von der Produktionszeit mithilfe einer 10-kWh-Batterie verkaufen könnten. Zur Vereinfachung der Herausforderung nehmen wir an, dass der Besitzer den Overshoot direkt zu Marktpreisen ohne Abzüge verkaufen kann.</p>
+    
+                                <h4>Methode</h4>
+    
+                                <p>Um das Potenzial zu ermitteln, wurde eine Analyse durchgeführt, die stündliche Daten von 600 Photovoltaikanlagen und die europäischen Marktpreise für Strom aus dem Jahr 2021 nutzte. Die Analyse ergab, dass eine maßgeschneiderte Verkaufs-/Speicherstrategie für jede Photovoltaikanlage höhere Einnahmen erzielen würde als eine universelle Strategie für alle Anlagen, da die Produktions- und Verbrauchsraten unterschiedlich sind.</p>
+    
+                                <p>Unter der Annahme einer Batteriekapazität von 10 kWh wurde ein algorithmisches Modell entwickelt, das eine stündliche individuelle Kauf-/Verkaufsstrategie für jede Photovoltaikanlage simuliert, indem es Strompreise und Overshoot-Mengen einbezieht. Der Algorithmus lässt sich in den folgenden drei wiederkehrenden Schritten vom Jahresbeginn 2021 bis zum Jahresende zusammenfassen:</p>
+    
+                                <ol>
+                                    <li>Abschätzen, wann die 10-kWh-Batterie vollständig geladen oder überlastet wäre.</li>
+                                    <li>Den Zeitpunkt mit dem höchsten Strompreis innerhalb des berechneten Zeitrahmens als Verkaufszeitpunkt bestimmen. Die Entscheidungen zwischen dem Startpunkt der Berechnung und dem Verkaufszeitpunkt bestehen aus „Speichern“.</li>
+                                    <li>Den Verkaufszeitpunkt als neuen Startpunkt für die Berechnung festlegen.</li>
+                                </ol>
+    
+                                <p>Für die Evaluation des Modells wurden die Lastgänge von 600 realen Photovoltaikanlagen mit dem Modell durchgeführt. Das Kriterium für die Simulation war, sicherzustellen, dass jede PV-Anlage höhere Einnahmen erzielt als beim direkten Verkauf ohne die Batterie zu speichern. Während des gesamten Testprozesses wurde geachtet, dass die Speicherkapazität der Batterie konstant im 10-kWh-Limit bleibt.</p>
+    
+                                <h4>Ergebnisse</h4>
+    
+                                <p>Die Ergebnisse des entwickelten Modells zeigen, dass die Optimierung des Verkaufs des Overshoots den Ertrag für alle 600 Photovoltaikanlagen steigern kann. Eine dieser Anlagen konnte beispielsweise ihren Ertrag von CHF 429,5 auf CHF 519,2 steigern. Im Vergleich zum direkten Verkauf ohne Speicherung des Overshoots in einer Batterie erzielte das Modell eine Ertragssteigerung von 15 % bis 25 % über alle getesteten Photovoltaikanlagen hinweg. Die 10-prozentige Schwankung ist darauf zurückzuführen, dass jede Solaranlage ihr eigenes einzigartiges Produktionsmuster über die Zeit hinweg aufweist.</p>
+    
+                                <h4>Weiteres Vorgehen</h4>
+    
+                                <p>Auf Grundlage der Ergebnisse wird ein gründliches Risikomanagement empfohlen, bevor die Umsetzung des Projekts in einem realen Kontext erfolgt. Angesichts der aktuellen Strompreise und der hohen Anschaffungskosten einer 10-kWh-Batterie scheint es unwahrscheinlich, dass die potenzielle Ertragssteigerung innerhalb eines Jahres die Investitionskosten ausgleichen wird.</p>
+    
+                                <p>Alternativ kann man das Modell auch rein technisch ergänzen. Eine wichtige Erweiterung des Modells wäre es, zukunftsorientierte Entscheidungen mit Simulationen treffen zu können. Folgende zusätzliche Daten könnten die Vorhersagegenauigkeit verbessern und damit die Machbarkeit und den langfristigen Erfolg des Projekts unterstützen:</p>
+    
+                                <ul>
+                                    <li>Prognose der lokalen Wetterdaten</li>
+                                    <li>Größe des Solarpanelsystems</li>
+                                    <li>Neigungswinkel des Systems</li>
+                                    <li>Ausrichtung des Systems</li>
+                                </ul>
+    
+                                <p>Diese Prognosen würden eine effizientere und präzisere Vorhersage ermöglichen.</p>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="../js/jquery.min.js"></script>
+  <!-- jQuery Easing -->
+  <script src="../js/jquery.easing.1.3.js"></script>
+  <!-- Bootstrap -->
+  <script src="../js/bootstrap.min.js"></script>
+  <!-- Waypoints -->
+  <script src="../js/jquery.waypoints.min.js"></script>
+  <!-- Flexslider -->
+  <script src="../js/jquery.flexslider-min.js"></script>
+  <!-- Owl carousel -->
+  <script src="../js/owl.carousel.min.js"></script>
+  <!-- Counters -->
+  <script src="../js/jquery.countTo.js"></script>
+  
+  <!-- MAIN JS -->
+  <script src="../js/main.js"></script>
+
+</body>
+</html>
