@@ -1,0 +1,52 @@
+[
+  {
+    "id": "eawag-ra",
+    "title": "Research Assistant (40%) @ Eawag",
+    "period": "02.2025–06.2025",
+    "description": "Eawag ist das Wasserforschungsinstitut des ETH-Bereichs.",
+    "bullets": [
+      "Co-Präsentation von Projektergebnissen an der Winter School & Symposium 2025 des Zürich-Basel Plant Science Center.",
+      "Weiterentwicklung der Python-basierten Bildklassifikations-Pipeline zur automatischen Erkennung von Planktonarten."
+    ]
+  },
+  {
+    "id": "eawag-zivildienst",
+    "title": "Zivildienst / Python Developer @ Eawag",
+    "period": "09.2024–02.2025",
+    "description": "Zivildiensteinsatz am Wasserforschungsinstitut Eawag.",
+    "bullets": [
+      "Mitarbeit an der Entwicklung einer Python-basierten Bildklassifikations-Pipeline zur Planktonklassifikation, einschliesslich Dokumentation und Betrieb auf dem SLURM-Cluster der ETHZ.",
+      "Optimierung und Standardisierung von Code-Repositories und CI-Pipelines zur Verbesserung der Wartbarkeit.",
+      "Vorbereitung von Workshop-Übungen für die Winter School & Symposium 2025."
+    ]
+  },
+  {
+    "id": "eniwa-ds",
+    "title": "Junior Data Scientist @ Eniwa AG",
+    "period": "07.2023–09.2024",
+    "description": "Eniwa AG ist ein regionales Energieunternehmen mit Sitz in Aarau. In meiner Rolle als Junior Data Scientist konzentrierte ich mich auf folgende Aufgaben:",
+    "bullets": [
+      "Konzeption und Implementierung von Machine-Learning-Pipelines (Python, Azure) mit CI/CD für interne Anwendungen.",
+      "Verbesserung und Monitoring der Datenqualität zur Sicherstellung der Datenintegrität mit SQL und Power BI.",
+      "Enge Zusammenarbeit mit Stakeholdern zur Anforderungserhebung sowie Entwicklung von Power BI-Dashboards zur Unterstützung von Geschäftsentscheidungen."
+    ]
+  },
+  {
+    "id": "winter-rs",
+    "title": "Winter RS",
+    "period": "01.2022–05.2022",
+    "description": "Als Nachrichtensoldat mit Fahrerfunktion.",
+    "bullets": []
+  },
+  {
+    "id": "fhnw-elektroniker",
+    "title": "Elektroniker, Institut für Automation FHNW",
+    "period": "08.2017–07.2021",
+    "description": "Grundausbildung als Elektroniker in der Libs mit FHNW als Partnerfirma.",
+    "bullets": [
+      "Simulationen von Schaltkreisen für Studierende Projekte",
+      "Design und Bestücken von Leiterplatten",
+      "Instandhaltung vom Labor"
+    ]
+  }
+]

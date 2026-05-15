@@ -1,0 +1,48 @@
+[
+  {
+    "title": "lit eco classifier -  Bildklassifikation für Planktonarten",
+    "date": "2024–2025",
+    "type": "Projekt",
+    "description": "Repo für Python-basierten Bildklassifikations-Pipeline zur Erkennung von Planktonarten,  entwickelt während meine Tätigkeit in Eawag. ",
+    "image": "images/plankton.png",
+    "link": "https://github.com/JuanFelipeRuiz/lit_ecology_classifier",
+    "read_more": "Link zum Repo",
+    "public_repo": "https://github.com/JuanFelipeRuiz/lit_ecology_classifier",
+    "tags": ["Python", "Deep Learning", "Computer Vision", "SLURM", "Wandb", "Pytorch Lightning"]
+  },
+  {
+    "title": "Solaranlage Optimierung",
+    "date": "Januar 2023",
+    "type": "Projekt",
+    "description": "Erstes Semesterprojekt. Mittels Simulation wurde untersucht, um wie viel der Ertrag von Solaranlagen durch eine 10-kWh-Batterie und eine individuelle Verkaufsstrategie gesteigert werden kann.",
+    "read_more": "Bericht zum Projekt",
+    "image": "images/0_solar.jpg",
+    "link": "subpages/SolaranlagenOptimierung.html",
+    "public_repo": null,
+    "tags": ["R", "Simulation", "Optimierung"]
+  },
+
+
+
+  {
+    "title": "Fremdstoffvorhersage in Grünabfallbehältern",
+    "date": "2024",
+    "type": "Projekt",
+    "description": "Entwicklung eines Modells zur Vorhersage des Fremdstoffanteils in Grünabfallbehältern. Die Hauptherausforderung bestand darin, die Behälter via Koordinaten Gebäuden zuzuordnen und die Containerdaten auf demografische Daten zu mappen. Ergänzt wurde das Modell durch ein Dashboard zur einfachen Skalierung auf weitere Gemeinden.",
+    "read_more": 0,
+    "image": "images/1_bio.png",
+    "link": "#",
+    "public_repo": null,
+    "tags": ["Python", "SQL", "Machine Learning", "Power BI", "Geodaten"]
+  },
+  {
+    "title": "Semesterplanung mit Scrum",
+    "date": "Mai 2023",
+    "type": "Beitrag",
+    "description": "Reflexion für die eigene Semesterplanung mit Scrum Elementen.",
+    "image": "images/blog-3.jpg",
+    "link": "https://medium.com/@juan-ruiz_92476/semesterplanung-mit-scrum-1754485d7a72",
+    "public_repo": null,
+    "tags": ["Scrum", "Projektmanagement", "Studium"]
+  }
+]

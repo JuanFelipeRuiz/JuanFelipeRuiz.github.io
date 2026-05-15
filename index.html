@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html>
 
 <head>
@@ -24,8 +24,7 @@
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
 
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vincentdoerig/latex-css@1.10.0/fonts/fonts.css">
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -57,23 +56,26 @@
 		<div class="container-wrap">
 			<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar"
 				aria-expanded="false" aria-controls="navbar"><i></i></a>
-
 			<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
 				<div class="text-center">
-					<div class="author-img" style="background-image: url(images/about.jpg);"></div>
+					<div class="author-img" style="background-image: url(images/Foto.png);"></div>
 					<h1 id="colorlib-logo"><a href="index.html">Juan Felipe Ruiz</a></h1>
-					<span class="position"><a href="#">Data Scientist</a> in Baden, Switzerland</span>
+					<span class="position"><a href="#" style="color: #000;">Data Scientist</a> in Baden, Switzerland</span>
 				</div>
-
-				<nav id="colorlib-main-menu" role="navigation" class="navbar">
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 					<div id="navbar" class="collapse">
 						<ul>
 							<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-							<li><a href="#" data-nav-section="about">Über mich</a></li>
+							<li><a href="#" data-nav-section="projekte">Projekte &amp; Blog</a></li>
 							<li><a href="#" data-nav-section="skills">Skills</a></li>
-							<li><a href="#" data-nav-section="blog">Blog</a></li>
 							<li><a href="#" data-nav-section="education">Ausbildung</a></li>
 							<li><a href="#" data-nav-section="experience">Beruflicher Werdegang</a></li>
+							<li style="margin-top: 30px; text-align:center;">
+							<a href="mailto:juanfelipe.ruiz@bluewin.ch" title="E-Mail" style="color:rgba(0,0,0,0.7); font-size:20px; margin:0 8px;"><i class="icon-mail"></i></a>
+							<a href="https://github.com/JuanFelipeRuiz" target="_blank" title="GitHub" style="color:rgba(0,0,0,0.7); font-size:20px; margin:0 8px;"><i class="icon-github"></i></a>
+							<a href="https://www.linkedin.com/in/juan-felipe-ruiz-ba7626340" target="_blank" title="LinkedIn" style="color:rgba(0,0,0,0.7); font-size:20px; margin:0 8px;"><i class="icon-linkedin2"></i></a>
+							<a href="Assets/CV.pdf" target="_blank" title="Download CV" style="display:inline-block; margin:0 8px;"><img src="images/cards/cv_icon.png" alt="Download CV" style="width:20px; height:20px; vertical-align:-1px; filter:grayscale(100%) opacity(70%);"></a>
+						</li>
 						</ul>
 					</div>
 				</nav>
@@ -82,74 +84,39 @@
 			</aside id="colorlib-aside" role="complementary" class="border js-fullheight" style="overflow: hidden;">
 
 			<div id="colorlib-main">
-				<section id="colorlib-hero" class="js-fullheight" data-section="home">
-					<div class="flexslider js-fullheight">
-						<ul class="slides">
-							<li style="background-image: url(images/img_bg_1.jpg);">
-								<div class="overlay"></div>
-								<div class="container-fluid">
-									<div class="row">
-										<div
-											class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-											<div class="slider-text-inner js-fullheight">
-												<div class="desc">
-													<h1>Hallo, Hello, Hola! <br>Ich bin Juan</h1>
-													<h2>Hier sind einige Daten aus meinem Leben!</h2>
-													<p><a class="btn btn-primary btn-learn" href="Assets/CV.pdf"
-															target="_blank">Download CV <i
-																class="icon-download4"></i></a></p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</li>
-						</ul>
+				<section id="colorlib-hero" data-section="home" style="position: relative;">
+					<div class="overlay"></div>
+					<div class="colorlib-narrow-content" style="position: relative; z-index: 1;">
+						<h1>Hello, Hallo, Hola! <br></h1>
+						<p style="margin-top: 15px; max-width: 800px; text-align: left;"> Mein Name ist Juan Felipe. Ich helfe Daten in Grundlagen für Entscheidungen zu verwandeln. Als Data Scientist entwickle ich Analysen, Pipelines und Visualisierungen, die echten Mehrwert schaffen und erkläre komplexe Zusammenhänge so, dass sie für technische wie nicht-technische Teams gleichermassen verständlich sind.</p>
 					</div>
 				</section>
 
-				<section class="colorlib-about" data-section="about">
+
+				<section class="colorlib-blog" data-section="projekte">
 					<div class="colorlib-narrow-content">
 						<div class="row">
 							<div class="col-md-12">
-								<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-									<div class="col-md-12">
-										<div class="about-desc">
-											<span class="heading-meta">Über mich</span>
-											<h2 class="colorlib-heading">Wer bin ich?</h2>
-											<p><strong>Mein Name ist Juan Felipe</strong>, ich bin Data Scientist und
-												habe es mir zur Aufgabe gemacht,
-												basierend auf Daten und Zahlen spannende Erkenntnisse und innovative
-												Lösungen zu entwickeln, die einen echten Mehrwert für das Unternehmen
-												schaffen.</p>
-											<P> Als Data Scientist bin ich darauf spezialisiert, Datenaufgaben zu lösen
-												und verständlich zu kommunizieren.
-												Es ist mein Bestreben, technischen Teams wie auch Fachleuten aus anderen
-												Bereichen detaillierte Analyseergebnisse in
-												einer für alle verständlichen Form zu präsentieren und sie mit den
-												Auswirkungen datengetriebener Entscheidungen vertraut zu machen.
-											</P>
-
-										</div>
-									</div>
-								</div>
+								<span class="heading-meta">Einblick in Meine Tätigkeiten</span>
+								<h2 class="colorlib-heading">Projekte &amp; Blog</h2>
+								<p style="margin-bottom: 30px;">Eine Übersicht meiner Projekte und Beiträge rund um Data Science, Machine Learning und mehr.</p>
 							</div>
 						</div>
+						<div class="row" id="projects-container"></div>
 					</div>
 				</section>
 
 				<section class="colorlib-skills" data-section="skills">
 					<div class="colorlib-narrow-content">
 						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-								data-animate-effect="fadeInLeft">
+							<div class="col-md-12">
 								<span class="heading-meta">Meine Stärken</span>
-								<h2 class="colorlib-heading animate-box">Skills</h2>
+								<h2 class="colorlib-heading">Skills</h2>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12">
-								<div class="services color-1 animate-box" data-animate-effect="fadeInLeft"
+								<div class="services color-1"
 									style=" margin-bottom: 20px;">
 									<h3, style="color:#2c98f0;"> <strong>Datenanalyse & Visualisierungen</strong>
 										<br><br></h3>
@@ -173,17 +140,20 @@
 
 
 						<div class="row">
-							<div class="col-md-12" data-animate-effect="fadeInLeft">
+							<div class="col-md-12">
 								<div class="services color-2" , style=" margin-bottom: 20px; padding-bottom: 0%;">
 
 									<h3, style="color:#ec5453 ;">
 										<a<br> <strong>Cloud Service & Datenbanken </strong><br><br></h3>
 
 											<p class="indent2">
-												⦁ Azure Devops, Data Lake, Azure Functions , Data Factory
+												⦁ Azure DevOps, Data Lake, Azure Functions, Data Factory
+											</p>
+											<p class="indent2">
+												⦁ CI/CD: GitHub Actions, Azure DevOps Pipelines, Terraform
 											</p>
 											<p class="indent2" style="margin-bottom: 5%;">
-												⦁ Datenbanken : SQL (Server Flavor), MongoDB
+												⦁ Datenbanken: SQL (Server Flavor), MongoDB
 											</p>
 
 
@@ -193,7 +163,7 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-md-12" data-animate-effect="fadeInLeft">
+							<div class="col-md-12">
 								<div class="services color-3" , style=" margin-bottom: 20px; padding-bottom: 0%;">
 
 									<h3, style="color:#f9bf3f ;"> <strong>Machine Learning </strong><br><br></h3>
@@ -203,13 +173,17 @@
 										<p class="indent2">
 											⦁ Treebased-Methoden: Decision Trees, Random Forests
 										</p>
-										<p class="indent2" style="margin-bottom: 5%;">
+										<p class="indent2">
 											⦁ Neurale Netze: Multi-Layer Perceptron (MLP)
+										</p>
+										<p class="indent2" style="margin-bottom: 5%;">
+											⦁ Bildklassifikation / Computer Vision (Plankton-Artenerkennung)
+										</p>
 								</div>
 							</div>
 						</div>
 						<div class="row" , style=" margin-bottom: 20px; padding-bottom: 0%;">
-							<div class="col-md-12" data-animate-effect="fadeInBottom">
+							<div class="col-md-12">
 								<div class="services color-4">
 									<h3, style=" color:#a84cb8 ;"><strong>Soft Skills </strong><br><br></h3>
 										<p, style="color:black;">
@@ -235,184 +209,18 @@
 				</section>
 
 
-
-
-				<section class="colorlib-blog" data-section="blog">
-					<div class="colorlib-narrow-content">
-						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-								data-animate-effect="fadeInLeft">
-								<span class="heading-meta">Read</span>
-								<h2 class="colorlib-heading">Recent Blog</h2>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-								<div class="blog-entry">
-									<a href="subpages/ReflexionSkillAudit.html" class="blog-img"><img
-											src="images/image-reflexion.jpg" class="img-responsive"
-											alt="HTML5 Bootstrap Template by colorlib.com"></a>
-									<div class="desc">
-										<span><small>Mai 2024 </small> | <small> Beitrag </small> </span>
-										<h3><a href="subpages/ReflexionSkillAudit.html"">Reflexion Skill Audit</a></h3>
-										<p> Bedeutung von 'Kundenorientierung' und 'Interpersonal Effectiveness' mit Bezug zu Data Science Projekte </p>
-									</div>
-								</div>
-							</div>
-
-
-							<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-								<div class="blog-entry">
-									<a href="subpages/SolaranlagenOptimierung.html" class="blog-img"><img
-											src="images/blog-1.jpg" class="img-responsive"
-											alt="HTML5 Bootstrap Template by colorlib.com"></a>
-									<div class="desc">
-										<span><small>Januar 2023 </small> | <small> Projekt </small> </span>
-										<h3><a href="subpages/SolaranlagenOptimierung.html"">Solaranalgen
-												Optimierung</a></h3>
-										<p>Simulation um herauszufinden, um wie viel der Ertrag einer Solaranalge mit einer Batterie optimiert werden kann.</p>
-									</div>
-								</div>
-							</div>
-							
-							<div class=" col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-												<div class="blog-entry">
-													<a href="https://medium.com/@juan-ruiz_92476/semesterplanung-mit-scrum-1754485d7a72"
-														class="blog-img"><img src="images/blog-3.jpg"
-															class="img-responsive"
-															alt="HTML5 Bootstrap Template by colorlib.com"></a>
-													<div class="desc">
-														<span><small>Mai 2023 </small> | <small> Beitrag </small>
-														</span>
-														<h3><a
-																href="https://medium.com/@juan-ruiz_92476/semesterplanung-mit-scrum-1754485d7a72">Semesterplanung
-																mit Scrum</a></h3>
-														<p>Reflexion für die eigene Semesterplanung mit Scrum Elementen.
-														</p>
-													</div>
-												</div>
-									</div>
-								</div>
-							</div>
-							<!--
-						<div class="row">
-							<div class="col-md-12 animate-box">
-								<p><a href="subpages/subpage1.html" class="btn btn-primary btn-lg btn-load-more" ,
-										style="background: transparent; color: black; border-color: black;" ; border:
-										2px solid black;"> Zum Blogübersicht → </a></p>
-							</div>
-						</div>
-						-->
-
-
-
-				</section>
-
-
 				<section class="colorlib-education" data-section="education">
 
 					<div class="colorlib-narrow-content">
 						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-								data-animate-effect="fadeInLeft">
+							<div class="col-md-12">
 								<span class="heading-meta">Bildung</span>
-								<h2 class="colorlib-heading animate-box">Bildung</h2>
+								<h2 class="colorlib-heading">Bildung</h2>
 							</div>
 						</div>
 
 						<div class="row">
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-
-								<div class="fancy-collapse-panel">
-									<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false">
-										<div class="panel panel-default">
-											<div class="panel-heading" role="tab" id="headingOne">
-												<h4 class="panel-title">
-													<a data-toggle="collapse" data-parent="#accordion"
-														href="#collapseOne" aria-expanded="true"
-														aria-controls="collapseOne">Aktuell im 4.
-														Semster vom Bachelor
-														Data Science
-													</a>
-												</h4>
-											</div>
-
-											<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
-												aria-labelledby="headingOne">
-												<div class="panel-body">
-													<p>
-														Derzeit studiere ich Data Science an der Hochschule für Technik
-														FHNW im 4. Semester.
-														Mein Studium umfasst eine Vielzahl von Modulen, in denen ich mir
-														bereits fundiertes Wissen in folgenden
-														Bereichen aneignen konnte:
-													</p>
-													<p class="indent">
-														<strong>Datenanalyse</strong><br>
-														Explorative Datenanalyse, Wahrscheinlichkeitsrechnung, lineare
-														Regression, stochastische Prozesse und
-														Zeitreihenanalyse
-													</p>
-													<p class="indent">
-														</span>Datenbanken</strong><br>
-														Datenbankdesign und Implementierung, IoT
-													</p>
-													<p class="indent">
-														<strong>Visualisierungen</strong><br>
-														Grundlagen grafischer Darstellungen
-													</p>
-
-													<p class="indent" style="margin-bottom: 0px;">
-														<strong>Machine Learning</strong><br>
-														Statistisches Lernen, Grundlagen Machine Learning
-													</p>
-												</div>
-
-											</div>
-										</div>
-									</div>
-
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab" id="headingThree">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-													href="#collapseThree" aria-expanded="false"
-													aria-controls="collapseThree">Elektroniker EFZ mit
-													Berufsmaturität
-												</a>
-											</h4>
-										</div>
-										<div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-											aria-labelledby="headingThree">
-											<div class="panel-body" style="margin-bottom: 0px;">
-												<p style="margin-bottom: 0px;">Absolviert an der Berufsbildung Baden mit
-													begleitender technische
-													Berufsmaturität. <br>
-													Abschlussarbeit "Wie haben italiänische
-													Gastarbeiter die Region Baden beeinflusst?"</p>
-											</div>
-										</div>
-									</div>
-
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab" id="headingFive">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-													href="#collapseFive" aria-expanded="false"
-													aria-controls="collapseFive">Bezirksschule
-												</a>
-											</h4>
-										</div>
-										<div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
-											aria-labelledby="headingFive">
-											<div class="panel-body" style="margin-bottom: 0px;">
-												<p style="margin-bottom: 0px;">Besucht an der Bezirksschule Mellingen
-													Wohlenschwil.</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+							<div class="col-md-12" id="education-container"></div>
 						</div>
 					</div>
 
@@ -422,170 +230,14 @@
 					<div class="colorlib-narrow-content">
 
 						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-								data-animate-effect="fadeInLeft">
+							<div class="col-md-12">
 								<span class="heading-meta">Beruf</span>
-								<h2 class="colorlib-heading animate-box">Beruflicher Werdegang</h2>
+								<h2 class="colorlib-heading">Beruflicher Werdegang</h2>
 							</div>
 						</div>
 
 						<div class="row">
-							<div class="col-md-12">
-								<div class="timeline-centered">
-									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-										<div class="timeline-entry-inner">
-											<div class="timeline-icon color-1">
-											</div>
-											<div class="timeline-label">
-												<h4 class="timeline-title" style="margin-bottom: 5px;">
-													<a data-toggle="collapse" data-parent="#timeline-accordion"
-														href="#timelineCollapseOne" aria-expanded="true"
-														aria-controls="timelineCollapseOne">
-														Junior Data Scientist, Eniwa AG<br>
-														<span>07.2023-Heute</span>
-													</a>
-												</h4>
-												<div id="timelineCollapseOne" class="collapse-panel collapse in"
-													role="tabpanel" aria-labelledby="timelineHeadingOne">
-													<div class="collapse-panel-body">
-														<p>
-															Eniwa AG ist ein regionales Energieunternehmen mit Sitz in
-															Aarau. In meiner Rolle als Data Scientist konzentrierte ich
-															mich auf folgende Aufgaben:
-														</p>
-														<p class="indent2">
-															⦁ Entwicklung von Python-Funktionen in Azure um
-															Hohschulprojekte zu integieren.
-
-														</p>
-														<p class="indent2">
-															⦁ Verbesserung und Monitoring der Datenqualität um
-															Integrität der Daten sicherzustellen.
-														</p>
-														<p class="indent2">
-															⦁ Visualisierungen von Reports in Power Bi für interne
-															Auftraggeber.
-														</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</article>
-
-									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-										<div class="timeline-entry-inner">
-											<div class="timeline-icon color-2">
-											</div>
-											<div class="timeline-label">
-												<h4 class="timeline-title" style="margin-bottom: 5px;">
-													<a class="collapsed" data-toggle="collapse"
-														data-parent="#timeline-accordion" href="#timelineCollapseTwo"
-														aria-expanded="false" aria-controls="timelineCollapseTwo" ;">
-														Aushilfe, Gräub Office<br>
-														<span>05.2023-09.2022</span>
-													</a>
-												</h4>
-												<div id="timelineCollapseTwo" class="collapse-panel collapse"
-													role="tabpanel" aria-labelledby="timelineHeadingTwo">
-													<div class="collapse-panel-body">
-														<p>Temporäre Aushilfe bei Gräub Office</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</article>
-
-									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-										<div class="timeline-entry-inner">
-											<div class="timeline-icon color-3">
-											</div>
-											<div class="timeline-label">
-												<h4 class="timeline-title" style="margin-bottom: 5px;">
-													<a class="collapsed" data-toggle="collapse"
-														data-parent="#timeline-accordion" href="#timelineCollapseThree"
-														aria-expanded="false" aria-controls="timelineCollapseThree">
-														Winter RS<br>
-														<span>01.2022-05.2022</span>
-													</a>
-												</h4>
-												<div id="timelineCollapseThree" class="collapse-panel collapse"
-													role="tabpanel" aria-labelledby="timelineHeadingThree">
-													<div class="collapse-panel-body">
-														<p>Als Nachrichtensoldat mit Fahrerfunktion </p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</article>
-
-									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-										<div class="timeline-entry-inner">
-											<div class="timeline-icon color-3">
-											</div>
-											<div class="timeline-label">
-												<h4 class="timeline-title" style="margin-bottom: 5px;">
-													<a class="collapsed" data-toggle="collapse"
-														data-parent="#timeline-accordion" href="#timelineCollapseT"
-														aria-expanded="false" aria-controls="timelineCollapseT">
-														Aushilfe, Gräuboffice<br>
-														<span>09.2021-01.2022</span>
-													</a>
-												</h4>
-												<div id="timelineCollapseT" class="collapse-panel collapse"
-													role="tabpanel" aria-labelledby="timelineHeadingT">
-													<div class="collapse-panel-body">
-														<p>Temporäre Aushilfe bei Gräub Office und Stadtbibliothek Baden
-														</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</article>
-
-									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-										<div class="timeline-entry-inner">
-											<div class="timeline-icon color-3">
-											</div>
-											<div class="timeline-label">
-												<h4 class="timeline-title" style="margin-bottom: 5px;">
-													<a class="collapsed" data-toggle="collapse"
-														data-parent="#timeline-accordion" href="#timelineCollapseFour"
-														aria-expanded="false" aria-controls="timelineCollapseFour">
-														Elektroniker, Institut für Automation FHNW<br>
-														<span>08.2017-07.2021</span>
-													</a>
-												</h4>
-												<div id="timelineCollapseFour" class="collapse-panel collapse"
-													role="tabpanel" aria-labelledby="timelineHeadingFour">
-													<div class="collapse-panel-body">
-														<p>Grundausbildung als Elektroniker in der Libs mit FHNW als
-															Partnerfirma.
-														</p>
-														<p class="indent2">
-															⦁ Simulationen von Schaltkreisen für Studierende Projekte
-														</p>
-														<p class="indent2">
-															⦁ Design und Bestücken von Leiterplatten
-														</p>
-														<p class="indent2">
-															⦁ Instandhaltung vom Labor
-														</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</article>
-
-									<article class="timeline-entry begin animate-box">
-										<!-- data-animate-effect="fadeInLeft"-->
-										<div class="timeline-entry-inner">
-											<div class="timeline-icon color-none"> </div>
-										</div>
-									</article>
-
-								</div>
-							</div>
-						</div>
+							<div class="col-md-12" id="work-container"></div>
 					</div>
 					<div class="col-md-12" , style="text-align: center; margin-top: 20px;">
 						<p, style="font-size: 10px;"><small>
@@ -622,6 +274,13 @@
 
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
+	<script src="js/projects.js"></script>
+	<script src="js/cv.js"></script>
+	<script>
+		loadProjects('projects-container', { limit: 3, dataPath: 'data/projects.json' });
+		loadEducation('education-container');
+		loadWork('work-container');
+	</script>
 
 </body>
 

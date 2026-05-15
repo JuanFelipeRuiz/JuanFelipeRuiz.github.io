@@ -1,0 +1,47 @@
+[
+  {
+    "id": "fhnw-bsc",
+    "title": "BSc Data Science @ FHNW",
+    "period": "Abschluss 06/2026",
+    "description": "Ich studiere Data Science an der Hochschule für Informatik an der Fachhochschule Nordwestschweiz und schliesse voraussichtlich im Juni 2026 ab. Mein Studium umfasst eine Vielzahl von Modulen, in denen ich mir fundiertes Wissen in folgenden Bereichen angeeignet habe:",
+    "topics": [
+      {
+        "label": "Datenanalyse",
+        "content": "Explorative Datenanalyse, Wahrscheinlichkeitsrechnung, lineare Regression, stochastische Prozesse und Zeitreihenanalyse"
+      },
+      {
+        "label": "Datenbanken",
+        "content": "Datenbankdesign und Implementierung, IoT"
+      },
+      {
+        "label": "Visualisierungen",
+        "content": "Grundlagen grafischer Darstellungen und Entwicklung von Dashboards"
+      },
+      {
+        "label": "Machine Learning",
+        "content": "Statistisches Lernen, Grundlagen Machine Learning, Deep Learning"
+      }
+    ]
+  },
+  {
+    "id": "eawag-summerschool",
+    "title": "Summer School in Bayesian Methods @ Eawag",
+    "period": "06/2025",
+    "description": "Intensivkurs in Bayesianischen Methoden an der Eawag (Wasserforschungsinstitut des ETH-Bereichs).",
+    "topics": []
+  },
+  {
+    "id": "elektroniker-efz",
+    "title": "Elektroniker EFZ mit Berufsmaturität",
+    "period": "2019–2023",
+    "description": "Absolviert @ Berufsbildung Baden mit begleitender technischer Berufsmaturität. Abschlussarbeit \"Wie haben italiänische Gastarbeiter die Region Baden beeinflusst?\"",
+    "topics": []
+  },
+  {
+    "id": "bezirksschule",
+    "title": "Bezirksschule",
+    "period": "",
+    "description": "Besucht an der Bezirksschule Mellingen Wohlenschwil.",
+    "topics": []
+  }
+]
