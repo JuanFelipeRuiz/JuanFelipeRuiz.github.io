@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Projekte &amp; Blog – Juan Felipe Ruiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vincentdoerig/latex-css@1.10.0/fonts/fonts.css">
+  <link rel="stylesheet" href="../css/animate.css">
+  <link rel="stylesheet" href="../css/icomoon.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div style="max-width: 1000px; margin: 60px auto; padding: 0 30px;">
+
+  <p style="margin-bottom: 10px;"><a href="../index.html" style="font-size:12px; letter-spacing:1px; text-transform:uppercase; color:#000; text-decoration:none;">← Zurück</a></p>
+
+  <span style="font-size:12px; text-transform:uppercase; letter-spacing:2px; color:#999;">Meine Arbeit</span>
+  <h2 style="font-family:'Latin Modern Roman',serif; font-size:32px; margin-bottom: 10px;">Projekte &amp; Blog</h2>
+  <p style="margin-bottom: 40px; color:#555;">Alle Projekte und Beiträge rund um Data Science, Machine Learning und mehr.</p>
+
+  <div class="row" id="projects-container"></div>
+
+</div>
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/projects.js"></script>
+<script>
+  loadProjects('projects-container', {
+    dataPath: '../data/projects.json',
+    linkPrefix: '../',
+    colClass: 'col-md-4 col-sm-6'
+  });
+</script>
+</body>
+</html>
