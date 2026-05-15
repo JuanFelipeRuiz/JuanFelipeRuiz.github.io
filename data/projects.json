@@ -30,7 +30,7 @@
     "type": "Projekt",
     "description": "Entwicklung eines Modells zur Vorhersage des Fremdstoffanteils in Grünabfallbehältern. Die Hauptherausforderung bestand darin, die Behälter via Koordinaten Gebäuden zuzuordnen und die Containerdaten auf demografische Daten zu mappen. Ergänzt wurde das Modell durch ein Dashboard zur einfachen Skalierung auf weitere Gemeinden.",
     "read_more": 0,
-    "image": "images/1_bio.png",
+    "image": "images/1_Bio.png",
     "link": "#",
     "public_repo": null,
     "tags": ["Python", "SQL", "Machine Learning", "Power BI", "Geodaten"]
