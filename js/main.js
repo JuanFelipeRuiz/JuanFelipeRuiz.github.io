@@ -145,7 +145,7 @@
 
 	var clickMenu = function() {
 
-		$('#navbar a:not([class="external"])').click(function(event){
+		$('#navbar a:not(.contact-link)').click(function(event){
 			var section = $(this).data('nav-section'),
 				navbar = $('#navbar');
 
@@ -165,7 +165,63 @@
 		    return false;
 		});
 
+	};
 
+	var emailCopy = function() {
+		var email = 'juanfelipe.ruiz@bluewin.ch';
+
+		$('#copy-email-btn').on('click', function(e) {
+			e.preventDefault();
+			e.stopPropagation();
+
+			navigator.clipboard.writeText(email).then(function() {
+				showEmailToast();
+			}).catch(function() {
+				var ta = document.createElement('textarea');
+				ta.value = email;
+				ta.style.position = 'fixed';
+				ta.style.opacity = '0';
+				document.body.appendChild(ta);
+				ta.select();
+				document.execCommand('copy');
+				document.body.removeChild(ta);
+				showEmailToast();
+			});
+		});
+	};
+
+	var showEmailToast = function() {
+		var existing = document.getElementById('email-toast');
+		if (existing) existing.remove();
+
+		var toast = document.createElement('div');
+		toast.id = 'email-toast';
+		toast.textContent = 'E-Mail kopiert';
+		toast.style.cssText = [
+			'position:absolute',
+			'top:100%',
+			'left:50%',
+			'transform:translateX(-50%)',
+			'margin-top:8px',
+			'background:rgba(0,0,0,0.78)',
+			'color:#fff',
+			'padding:6px 16px',
+			'border-radius:20px',
+			'font-size:13px',
+			'font-family:inherit',
+			'white-space:nowrap',
+			'z-index:9999',
+			'pointer-events:none',
+			'opacity:1',
+			'transition:opacity 0.4s ease'
+		].join(';');
+
+		document.getElementById('copy-email-btn').closest('li').appendChild(toast);
+
+		setTimeout(function() {
+			toast.style.opacity = '0';
+			setTimeout(function() { toast.remove(); }, 400);
+		}, 2000);
 	};
 
 	// Reflect scrolling in navigation
@@ -255,6 +311,7 @@ var owlCrouselFeatureSlide = function() {
 		mobileMenuOutsideClick();
 		sliderMain();
 		owlCrouselFeatureSlide();
+		emailCopy();
 	});
 
 
